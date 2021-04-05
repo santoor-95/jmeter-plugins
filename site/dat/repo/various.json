@@ -1049,5 +1049,26 @@
         ]
       }
     }
+  },
+  {
+    "id": "sap-blazemeter-plugin",
+    "name": "Sap - BlazeMeter Plugin",
+    "description": "",
+    "screenshotUrl": "",
+    "helpUrl": "https://github.com/Blazemeter/SAP-Plugin",
+    "vendor": "Blazemeter",
+    "markerClass": "com.blazemeter.jmeter.correlation.sap.SapCorrelationEngine",
+    "componentClasses": [
+      "com.blazemeter.jmeter.correlation.core.CorrelationRule",
+      "com.blazemeter.jmeter.correlation.sap.SapCorrelationEngine"
+    ],
+    "versions": {
+      "0.6.0": {
+        "downloadUrl": "https://github.com/Blazemeter/SAP-Plugin/raw/master/jmeter-bzm-sap-correlation-0.6.0.jar",
+        "depends": [
+          "jmeter-core"
+        ]
+      }
+    }
   }
 ]
